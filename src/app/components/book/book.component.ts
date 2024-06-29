@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Book } from '../../Book';
 
 @Component({
   selector: 'app-book',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class BookComponent {
 
+  book : Book = {
+    id : 1,
+    title : "Angular",
+    author : "Rafael",
+    price : 50.00
+  };
+
+  
 }
