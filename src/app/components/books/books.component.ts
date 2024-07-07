@@ -8,6 +8,10 @@ import { Book } from '../../Book';
 })
 export class BooksComponent {
 
+  newBook : Book = {
+    title : "Angular"
+  } as Book;
+
   books: Book[] = [
     {
       id: 1,
@@ -28,7 +32,7 @@ export class BooksComponent {
       price: 43.25
     },
     {
-      id: 3,
+      id: 4,
       title: "JavaScript 24 horas",
       author: "Rafael Mar",
       price: 28.50

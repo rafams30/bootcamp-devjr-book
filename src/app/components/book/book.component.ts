@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Book } from '../../Book';
 
 @Component({
@@ -8,7 +8,7 @@ import { Book } from '../../Book';
 })
 export class BookComponent {
 
-  book : Book = {} as Book;
-  
+  @Input()
+  book : Book = {} as Book;  
   
 }
