@@ -8,11 +8,7 @@ import { Book } from '../../Book';
 })
 export class BookComponent {
 
-  book : Book = {
-    id : 1,
-    title : "Angular",
-    author : "Rafael",
-    price : 50.00
-  };
+  book : Book = {} as Book;
+  
   
 }
