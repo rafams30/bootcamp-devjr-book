@@ -14,6 +14,5 @@ export class BookComponent {
     author : "Rafael",
     price : 50.00
   };
-
   
 }
