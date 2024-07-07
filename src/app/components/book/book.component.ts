@@ -10,5 +10,10 @@ export class BookComponent {
 
   @Input()
   book : Book = {} as Book;  
+
+
+  save() {
+    console.log("Save");
+  }
   
 }
